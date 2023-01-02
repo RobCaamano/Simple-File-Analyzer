@@ -1,4 +1,4 @@
-# C-Simple-File-Analyzer
+# C++ Simple-File-Analyzer
 Counts the number of lines, total number of characters (with spaces and newlines), number of digit characters (‘0’ - ‘9’), number of alphabetic characters, number of punctuation characters, number of words, and number of integers seen in the file.
 
 The program accepts one command line argument for a file name, and ignores any extra command line arguments that may be provided after the file name. If no file name is provided, the program should print on a new line "No file is found", and exit. If the file cannot be opened, print on a new line "File cannot be opened: ", followed by the file name, and exit. The program should read from the file character by character until the end of file. If the input file is empty, print out the message "File is empty." on a new line and then exit.
